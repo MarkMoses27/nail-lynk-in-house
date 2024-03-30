@@ -1,7 +1,7 @@
-
 import { Link } from 'react-router-dom';
 import LYNK_LOGO from '../../assets/lynk.svg';
 import './Navbar.css'; 
+
 
 const Navbar = () => {
   return (
@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className='logo'>
         <img src={LYNK_LOGO} alt="logo" />
       </div>
-        <ul className="nav-links">
+        <ul className='nav-links'>
           <li>
             <Link to="/">Home</Link>
           </li>
