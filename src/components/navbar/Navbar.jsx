@@ -25,6 +25,11 @@ const Navbar = () => {
             <Link to="/contact">Contact</Link>
           </li>
         </ul>
+
+        <button className="booking-btn">
+  <Link to="/services">Book Now</Link>
+</button>
+
     </nav>
   );
 };

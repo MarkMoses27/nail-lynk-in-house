@@ -36,7 +36,7 @@ nav {
   
   .nav-links li a {
     position: relative;
-    text-decoration: none;
+    font-size: 1.5rem;
   }
   
  
@@ -70,4 +70,11 @@ nav {
   .nav-links li a:hover::before {
     color:var(--theme-color); 
   }
+  
+  .booking-btn:hover{
+
+    background-color: var(--theme-color);
+
+  }
+ 
   
